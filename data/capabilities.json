@@ -1,0 +1,50 @@
+[
+  {
+    "id": "airline-fleet-strategy",
+    "number": "01",
+    "title": "Airline & Fleet Strategy",
+    "problem": "Operators face aircraft backlogs, delivery delays and fleet decisions that carry decade-long consequences.",
+    "response": "NAP works alongside airline and fleet leadership to structure fleet expansion, renewal and transformation decisions grounded in operational reality.",
+    "areas": ["Fleet expansion", "Aircraft acquisition", "Fleet transformation", "Cabin configuration", "M&A", "Routing", "Procurement"]
+  },
+  {
+    "id": "mro-infrastructure",
+    "number": "02",
+    "title": "MRO & Infrastructure",
+    "problem": "Maintenance capacity, technical partnerships and lifecycle planning determine whether a fleet stays airworthy and competitive.",
+    "response": "NAP helps structure MRO networks and infrastructure relationships built on decades of direct technical experience.",
+    "areas": ["MRO networks", "Maintenance strategy", "Heavy maintenance", "Technical partnerships", "Infrastructure development", "Aircraft lifecycle optimization"]
+  },
+  {
+    "id": "new-mobility",
+    "number": "03",
+    "title": "New Mobility",
+    "problem": "Mobility is decentralizing. Regional and point-to-point models require infrastructure that does not yet fully exist.",
+    "response": "NAP supports the design of village-to-village and point-to-point aviation networks and Advanced Air Mobility infrastructure.",
+    "areas": ["Village-to-village aviation", "Point-to-point networks", "Advanced Air Mobility", "Regional connectivity", "Decentralized aviation infrastructure"]
+  },
+  {
+    "id": "sustainable-propulsion",
+    "number": "04",
+    "title": "Sustainable Propulsion",
+    "problem": "SAF, hydrogen and electric propulsion each carry distinct infrastructure, financing, safety and regulatory requirements.",
+    "response": "NAP helps operators and suppliers navigate the energy transition without treating every propulsion pathway as interchangeable.",
+    "areas": ["SAF", "Biofuels", "Hydrogen", "Electric propulsion", "Infrastructure", "Energy transition"]
+  },
+  {
+    "id": "lighter-than-air",
+    "number": "05",
+    "title": "Lighter-Than-Air",
+    "problem": "Airships, balloons and heavy-lift platforms represent a distinct mobility category with its own safety and regulatory path.",
+    "response": "NAP brings structured thinking to lighter-than-air systems as a serious, low-impact mobility and logistics category.",
+    "areas": ["Airships", "Commercial balloons", "Heavy-lift platforms", "Slow mobility", "Wind-assisted transportation", "Safety", "Regulation"]
+  },
+  {
+    "id": "aerospace-space-materials",
+    "number": "06",
+    "title": "Aerospace & Space Materials",
+    "problem": "Space systems, orbital logistics and advanced materials manufacturing form a new industrial frontier with its own supply chains.",
+    "response": "NAP applies industrial and deep-tech experience to space infrastructure, advanced materials and orbital manufacturing ventures.",
+    "areas": ["Space systems", "Launch infrastructure", "Orbital logistics", "Advanced materials", "Industrial supply chains", "Manufacturing in space"]
+  }
+]

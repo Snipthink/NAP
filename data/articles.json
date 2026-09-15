@@ -1,0 +1,14 @@
+[
+  { "category": "Aviation", "title": "The Fleet Delivery Deficit Is Rewriting Airline Strategy", "intro": "Backlogs and delivery delays are forcing operators to treat maintenance, refurbishment and lifecycle planning as core strategy, not a support function.", "date": "2026-06-01" },
+  { "category": "Industry", "title": "Aircraft Supply Chains After the Squeeze", "intro": "Component scarcity is changing how operators, lessors and MRO providers structure long-term relationships.", "date": "2026-05-14" },
+  { "category": "Industry", "title": "What MRO Networks Actually Require", "intro": "Technical capacity is only part of the equation. Trust, proximity and regulatory alignment decide whether a network holds.", "date": "2026-04-22" },
+  { "category": "Energy", "title": "SAF Infrastructure: The Unglamorous Bottleneck", "intro": "Sustainable aviation fuel is a supply and logistics problem before it is a technology problem.", "date": "2026-04-02" },
+  { "category": "Energy", "title": "Hydrogen Aviation: Separating the Runway from the Runway Talk", "intro": "Hydrogen propulsion requires infrastructure, certification and safety frameworks that do not yet exist at scale.", "date": "2026-03-18" },
+  { "category": "Energy", "title": "Electric Aviation and the Limits of the Battery", "intro": "Electric propulsion is real for short regional routes today — and constrained by physics everywhere else, for now.", "date": "2026-02-27" },
+  { "category": "Mobility", "title": "Advanced Air Mobility Beyond the Demo Flight", "intro": "AAM's future depends less on the aircraft and more on the ground infrastructure nobody is building yet.", "date": "2026-02-09" },
+  { "category": "Mobility", "title": "Lighter-Than-Air Systems: A Serious Case for Slow", "intro": "Airships and heavy-lift balloons offer a low-impact logistics category worth taking seriously again.", "date": "2026-01-21" },
+  { "category": "Space", "title": "Space Manufacturing and the New Industrial Frontier", "intro": "Orbital logistics and advanced materials production are becoming an extension of terrestrial industrial supply chains.", "date": "2025-12-15" },
+  { "category": "Industry", "title": "Industrial Capital for Aerospace Ventures", "intro": "Capital structuring in aerospace requires patience and technical fluency that generalist investors rarely bring.", "date": "2025-11-30" },
+  { "category": "Ecology", "title": "Slow Mobility as an Ecological Strategy", "intro": "Not every transportation problem is best solved by speed. Some are best solved by efficiency and atmospheric awareness.", "date": "2025-11-05" },
+  { "category": "Ecology", "title": "Ecological Systems and the Next Generation of Aviation", "intro": "Technology should expand human possibility without disconnecting us from the systems that sustain life.", "date": "2025-10-19" }
+]

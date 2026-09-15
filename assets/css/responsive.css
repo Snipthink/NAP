@@ -1,0 +1,55 @@
+/* ==========================================================================
+   RESPONSIVE OVERRIDES — tablet (8-col intent) and mobile (4-col intent)
+   ========================================================================== */
+
+/* ---------- Tablet: <= 1080px ---------- */
+@media (max-width: 1080px){
+  .primary-nav{gap:22px;}
+  .primary-nav a{font-size:11px;}
+  .cap-grid{grid-template-columns:repeat(2,1fr);}
+  .process-strip{grid-template-columns:repeat(2,1fr);}
+  .advisor-grid{grid-template-columns:repeat(2,1fr);}
+  .article-grid{grid-template-columns:repeat(2,1fr);}
+  .stat-row{grid-template-columns:repeat(2,1fr);}
+  .location-grid{grid-template-columns:repeat(2,1fr);}
+  .contact-info{grid-template-columns:repeat(2,1fr);}
+  .footer-top{grid-template-columns:1fr 1fr;gap:36px;}
+}
+
+/* ---------- Below 900px: hide desktop nav, show hamburger ---------- */
+@media (max-width: 900px){
+  .primary-nav, .header-cta{display:none;}
+  .menu-toggle{display:flex;}
+  .compare{grid-template-columns:1fr;}
+  .profile-grid{grid-template-columns:1fr;}
+  .chapter{grid-template-columns:1fr;gap:12px;}
+  .timeline-item{grid-template-columns:1fr;gap:12px;}
+  .form-grid{grid-template-columns:1fr;}
+}
+
+/* ---------- Mobile: <= 640px ---------- */
+@media (max-width: 640px){
+  :root{--header-h:72px;}
+  .cap-grid{grid-template-columns:1fr;}
+  .process-strip{grid-template-columns:1fr;}
+  .advisor-grid{grid-template-columns:1fr;}
+  .article-grid{grid-template-columns:1fr;}
+  .stat-row{grid-template-columns:1fr 1fr;}
+  .location-grid{grid-template-columns:1fr;}
+  .contact-info{grid-template-columns:1fr;}
+  .footer-top{grid-template-columns:1fr;gap:32px;}
+  .footer-bottom{flex-direction:column;align-items:flex-start;}
+  .hero-meta{gap:28px;}
+  .hero-ctas{flex-direction:column;align-items:stretch;}
+  .hero-ctas .btn{justify-content:center;}
+  .btn{width:100%;justify-content:center;}
+  .final-cta .cta-buttons{flex-direction:column;}
+  .final-cta .cta-buttons .btn{width:100%;}
+  .back-to-top{right:16px;bottom:16px;width:44px;height:44px;}
+  .brand-name span{display:none;}
+}
+
+/* Accessible focus for keyboard nav on touch devices too */
+@media (hover:none){
+  .btn:hover, .text-link:hover{border-color:var(--line-strong);color:inherit;}
+}

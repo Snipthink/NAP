@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Capabilities | Norwegian Aviation Partners</title>
+<meta name="description" content="NAP capabilities span airline and fleet strategy, MRO and infrastructure, new mobility, sustainable propulsion, lighter-than-air systems, and aerospace and space materials.">
+<link rel="canonical" href="https://www.norwegianaviation.partners/capabilities.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Capabilities | Norwegian Aviation Partners">
+<meta property="og:description" content="Where strategy meets reality — NAP's six core capability areas.">
+<meta property="og:url" content="https://www.norwegianaviation.partners/capabilities.html">
+<meta property="og:image" content="https://www.norwegianaviation.partners/assets/images/og-cover.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.norwegianaviation.partners/assets/images/og-cover.jpg">
+<meta name="theme-color" content="#0A0B0D">
+<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icons/icon-192.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<style>
+  .capability-block{padding:clamp(56px,8vw,110px) 0;border-top:1px solid var(--line);}
+  .capability-head{display:grid;grid-template-columns:120px 1fr;gap:32px;margin-bottom:40px;}
+  .capability-num{font-family:var(--font-serif);font-size:clamp(2rem,4vw,3.2rem);color:var(--steel-dim);}
+  .capability-media{width:100%;aspect-ratio:16/7;overflow:hidden;margin-bottom:40px;border:1px solid var(--line);}
+  .capability-media img{width:100%;height:100%;object-fit:cover;filter:grayscale(.1) brightness(.8);}
+  .capability-cols{display:grid;grid-template-columns:1fr 1fr;gap:40px;}
+  .capability-cols h4{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--text-faint);margin-bottom:16px;font-family:var(--font-sans);font-weight:700;}
+  .capability-cols ul{display:flex;flex-direction:column;gap:10px;}
+  .capability-cols li{font-size:14px;color:var(--text-dim);padding-bottom:10px;border-bottom:1px solid var(--line);}
+
+  /* Capability detail groups — collapse into an accordion on mobile */
+  .cap-details{border:0;}
+  .cap-details summary{
+    list-style:none;cursor:default;display:flex;align-items:center;justify-content:space-between;
+  }
+  .cap-details summary::-webkit-details-marker{display:none;}
+  .cap-details .accordion-icon{display:none;font-family:var(--font-sans);color:var(--text-dim);}
+  @media (max-width:900px){
+    .capability-cols{grid-template-columns:1fr;gap:0;}
+    .cap-details{border-top:1px solid var(--line);padding:18px 0;}
+    .cap-details:last-of-type{border-bottom:1px solid var(--line);}
+    .cap-details summary{cursor:pointer;}
+    .cap-details .accordion-icon{display:inline-block;font-size:20px;transition:transform .3s var(--ease);}
+    .cap-details[open] .accordion-icon{transform:rotate(45deg);}
+    .cap-details h4{margin-bottom:0;}
+    .cap-details .cap-details-body{margin-top:16px;}
+  }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <a class="brand" href="index.html" aria-label="Norwegian Aviation Partners — Home">
+      <span class="brand-mark" aria-hidden="true">NAP</span>
+      <span class="brand-name">Norwegian Aviation<span>Partners</span></span>
+    </a>
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="about.html">About</a>
+      <a href="capabilities.html">Capabilities</a>
+      <a href="venture-studio.html">Venture Studio</a>
+      <a href="founders.html">Founders</a>
+      <a href="advisors.html">Advisors</a>
+      <a href="experience.html">Experience</a>
+      <a href="perspective.html">Perspective</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-primary header-cta" href="contact.html">Start a Conversation <span class="arrow">→</span></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobile-menu">
+  <nav aria-label="Mobile">
+    <a href="index.html">Home</a>
+    <a href="about.html">Institution</a>
+    <a href="capabilities.html">Capabilities</a>
+    <a href="venture-studio.html">Venture Studio</a>
+    <a href="founders.html">Founders</a>
+    <a href="advisors.html">Advisors</a>
+    <a href="experience.html">Experience</a>
+    <a href="perspective.html">Perspective</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <a class="btn btn-primary mobile-cta" href="contact.html">Start a Conversation</a>
+  <div class="mobile-meta">Oslo · Mallorca · Gran Canaria</div>
+</div>
+
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">Capability</p>
+    <h1 class="display-1">Where strategy meets reality.</h1>
+    <p class="lead">Six capability areas, each grounded in direct operating experience — not theoretical frameworks.</p>
+  </div>
+</section>
+
+<div id="capability-blocks" class="container"></div>
+
+<section class="final-cta">
+  <div class="container reveal">
+    <p class="eyebrow">Field Note</p>
+    <h2 class="display-2">Discuss a capability with us.</h2>
+    <div class="cta-buttons">
+      <a class="btn btn-primary" href="contact.html">Start a Conversation <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <span class="brand-mark" aria-hidden="true">NAP</span>
+          <span class="brand-name">Norwegian Aviation<span>Partners</span></span>
+        </a>
+        <p style="max-width:32ch;font-size:13px;">A hands-on aviation and aerospace venture studio built from the tarmac up.</p>
+        <div class="footer-tagline"><span>Aviation</span><span>Aerospace</span><span>Mobility</span><span>Industrial Innovation</span></div>
+      </div>
+      <div class="footer-col"><h4>Navigation</h4><ul>
+        <li><a href="about.html">Institution</a></li><li><a href="capabilities.html">Capabilities</a></li>
+        <li><a href="venture-studio.html">Venture Studio</a></li><li><a href="founders.html">Founders</a></li>
+        <li><a href="advisors.html">Advisors</a></li><li><a href="experience.html">Experience</a></li>
+        <li><a href="perspective.html">Perspective</a></li><li><a href="contact.html">Contact</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Locations</h4><ul>
+        <li><span class="plain">Oslo</span></li><li><span class="plain">Mallorca</span></li><li><span class="plain">Gran Canaria</span></li>
+      </ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul><li><a href="mailto:oslo@norwegianaviation.partners">oslo@norwegianaviation.partners</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span class="copyright">© 2026 Norwegian Aviation Partners. All rights reserved.</span>
+      <div class="legal-links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<script src="assets/js/navigation.js" defer></script>
+<script src="assets/js/animations.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+<script defer>
+var images = [
+  "https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?q=80&w=1600&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1583373834259-46cc92173cb7?q=80&w=1600&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1600&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1473445730015-841f29a9490b?q=80&w=1600&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1517400508447-f8dd518b86db?q=80&w=1600&auto=format&fit=crop",
+  "https://images.unsplash.com/photo-1517976487492-5750f3195933?q=80&w=1600&auto=format&fit=crop"
+];
+fetch('data/capabilities.json').then(r=>r.json()).then(function(items){
+  var wrap = document.getElementById('capability-blocks');
+  wrap.innerHTML = items.map(function(c,i){
+    return '<div class="capability-block reveal" id="'+c.id+'">'+
+      '<div class="capability-head"><div class="capability-num">'+c.number+'</div><div><p class="eyebrow">Capability</p><h2 class="display-3">'+c.title+'</h2></div></div>'+
+      '<div class="capability-media"><img src="'+images[i]+'" alt="'+c.title+' — representative environment" loading="lazy"></div>'+
+      '<div class="capability-cols">'+
+        '<details class="cap-details" open><summary><h4>The Problem &amp; NAP Response</h4><span class="accordion-icon">+</span></summary>'+
+        '<div class="cap-details-body"><p>'+c.problem+'</p><p style="margin-top:14px;">'+c.response+'</p></div></details>'+
+        '<details class="cap-details" open><summary><h4>Areas of Work</h4><span class="accordion-icon">+</span></summary>'+
+        '<div class="cap-details-body"><ul>'+c.areas.map(function(a){return '<li>'+a+'</li>';}).join('')+'</ul>'+
+        '<a class="text-link" style="margin-top:20px;display:inline-flex;" href="contact.html">Discuss This Capability <span class="arrow">→</span></a></div></details>'+
+      '</div>'+
+    '</div>';
+  }).join('');
+  document.querySelectorAll('.reveal').forEach(function(el){ if(!('IntersectionObserver' in window)) el.classList.add('is-visible'); });
+  var io = new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('is-visible');io.unobserve(e.target);}});},{threshold:.1});
+  document.querySelectorAll('#capability-blocks .reveal').forEach(function(el){io.observe(el);});
+}).catch(function(){});
+</script>
+</body>
+</html>
